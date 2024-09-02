@@ -7,5 +7,9 @@ int main() {
     printf("Player 1 name: (enter your name)\n");
     scanf("%s", game_name);
     printf("Welcome to the game world %s!\n", game_name);
-    
+
+    char game_name2[max_string];
+    printf("Player 2 name: (enter your name)\n");
+    scanf("%s", game_name2);
+    printf("Welcome to the game world %s!\n", game_name2);
 }
